@@ -6,10 +6,9 @@ on:
     types:
       - opened
       - reopened
-      - synchronize
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
